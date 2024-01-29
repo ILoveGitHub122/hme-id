@@ -1,0 +1,54 @@
+<head><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
+<style>
+  #wrap {
+    margin-left: -50px; /* make this relative to have the inner div absolute without     breaking out */
+    width: 200px;  /* fix the width or else it'll be the entire page's width */
+    background-color: white; 
+}
+
+#text {
+  margin-top: 100px;
+    position: absolute; 
+    width: 456px; 
+    right: 0; 
+    top: 0; 
+    bottom: 0; 
+    background: white; 
+    color: black;
+  font-family: Montserrat, sans-serif;
+}
+
+.username {
+  width: 22em;
+  height: 60px;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  margin: 7px;
+}
+
+.button1 {
+  width: 22em;
+  height: 60px;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  margin: 7px;
+}
+
+.terms {
+  margin-top: 150px;
+  font-size: 13px;
+}
+</style>
+</head>
+<div id="wrap">
+    <img src="https://images.unsplash.com/photo-1596496181871-9681eacf9764?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMzk2MDJ8&ixlib=rb-4.0.3&q=85" / width="-1200" height="600">
+  <div id="text"><h1>  Sign In</H1>
+   
+    <form>
+      <input type="text" placeholder="Username" class="username" maxlength="12">
+      <input type="password"  placeholder="Password" class="username" maxlength="8">
+      <input type="button" class="button1" value="Continue"
+    </form>   
+      <p class="terms">When you sign in, you agree with <a href="#">rules, policy and terms</a>.</p>
+  </div>
+</div>
